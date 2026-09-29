@@ -11,6 +11,7 @@ function Logo() {
         width={20}
         height={20}
         src="/logo/logo.png"
+        className="w-auto h-auto"
       />
       ByteSpace
     </a>

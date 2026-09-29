@@ -15,7 +15,13 @@ function Navbar() {
         <a href="#">Sign In</a>
         <a href="#">Join Us</a>
         <a href="#">
-            <Image width={15} height={15} src={'/logo/cart.png'} alt="Cart" />
+            <Image 
+              width={20}
+              height={20}
+              alt="cart"
+              src={'/logo/cart.png'}
+              className="h-auto w-auto"
+            />
         </a>
       </div>
     </header>
