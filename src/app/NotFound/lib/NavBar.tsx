@@ -20,7 +20,6 @@ function Navbar() {
               height={20}
               alt="cart"
               src={'/logo/cart.png'}
-              className="h-auto w-auto"
             />
         </a>
       </div>
