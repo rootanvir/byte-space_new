@@ -1,4 +1,10 @@
 import Logo from "./Logo";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 
 const BTN =
   "inline-flex items-center justify-center rounded-full bg-[#d4fb27] px-6 py-3.5 text-[15px] font-medium text-[#111] cursor-pointer";
@@ -11,10 +17,14 @@ const columns = [
 
 function Footer() {
   return (
-    <footer className="px-5 pt-11 pb-7 text-xs sm:px-20">
+    <footer className="border border-t-gray-300 px-5 pt-11 pb-7 text-xs sm:px-20">
+      
       <div className="grid gap-12 md:grid-cols-2">
         <div>
-          <Logo />
+          <div className="flex items-center gap-3">
+            <Logo />
+            <h1 className={`${poppins.className} text-2xl font-extrabold tracking-tight`}>ByteSpace</h1>
+          </div>
           <p className="mt-4">
             Stay Up to date with our latest features and releases by joining our newsletter.
           </p>
