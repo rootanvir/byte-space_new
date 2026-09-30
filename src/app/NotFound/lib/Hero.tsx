@@ -16,7 +16,7 @@ function Hero() {
                 Try to use a correct url or go back to homepage to start again
             </p>
 
-            <a className={BTN}>Back to Home</a>
+            <a className={BTN} href="/">Back to Home</a>
         </main>
     );
 }

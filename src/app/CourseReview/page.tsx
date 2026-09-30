@@ -248,7 +248,6 @@ export default function CourseReview() {
           )}
         </section>
       </div>
-      <hr className="border-gray-350" />
       <Footer />
     </main>
   );

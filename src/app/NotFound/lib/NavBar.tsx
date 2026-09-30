@@ -17,15 +17,15 @@ function Navbar() {
       </div>
 
       <nav className="flex gap-6 font-thin text-white ">
-        <a href="#">Home</a>
-        <a href="#">Courses</a>
-        <a href="#">Creators</a>
+        <a href="/">Home</a>
+        <a href="/CourseReview">Courses</a>
+        <a href="/CreatorProfile">Creators</a>
       </nav>
 
       <div className="flex gap-5 font-thin text-white">
-        <a href="#">Sign In</a>
-        <a href="#">Join Us</a>
-        <a href="#">
+        <a href="/SignIn">Sign In</a>
+        <a href="/SignUp">Join Us</a>
+        <a href="/cart">
           <Image
             width={20}
             height={20}

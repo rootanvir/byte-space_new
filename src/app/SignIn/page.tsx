@@ -199,7 +199,7 @@ export default function Login() {
 
                         <p className="mt-auto pt-10 text-center text-xs text-neutral-600">
                             New user?{" "}
-                            <Link href="/register" className="text-blue-600 hover:underline">
+                            <Link href="/SignUp" className="text-blue-600 hover:underline">
                                 Create an account
                             </Link>
                         </p>

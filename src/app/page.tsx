@@ -10,7 +10,7 @@ import Register from "./SignUp/page";
 export default function Home() {
   return (
     <div>
-      <Login />
+      <Landing/>
     </div>
   );
 }
