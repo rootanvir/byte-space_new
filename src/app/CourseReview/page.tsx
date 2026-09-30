@@ -106,7 +106,7 @@ export default function CourseReview() {
             rating={4.8}
             reviewCount={172}
             studentCount={199}
-            thumbnailSrc="/img/videothumbnail.png"
+            thumbnailSrc="/img/videoThumbnail.png"
           />
         </div>
 

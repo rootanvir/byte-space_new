@@ -8,7 +8,7 @@ type Shape = { src: string; className: string };
 const shapes: Shape[] = [
     { src: "/shapes/zigzag.png", className: "-left-13 top-50 w-58" },
     { src: "/shapes/zigzag2.png", className: "left-[15%] top-[45%] w-40" },
-    { src: "/shapes/limecylinder.png", className: "-right-25 top-30 w-60" },
+    { src: "/shapes/limeCylinder.png", className: "-right-25 top-30 w-60" },
     { src: "/shapes/cone3.png", className: "right-[15%] top-[45%] w-30" },
     { src: "/shapes/whitecircle.png", className: "left-[4%] bottom-0 w-70" },
     { src: "/shapes/zigzag22.png", className: "right-60 bottom-0 w-60" },
