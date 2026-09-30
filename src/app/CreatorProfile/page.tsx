@@ -1,4 +1,3 @@
-// src/app/CreatorProfile/page.tsx
 import Navbar from "../NotFound/lib/NavBar";
 import Footer from "../NotFound/lib/Footer";
 import { CreatorHero } from "./lib/CreatorHero";
@@ -41,7 +40,15 @@ const courses: Course[] = [
 export default function CreatorProfilePage() {
   return (
     <>
-      <div className="bg-[#0a2cf5] text-white">
+      {/* One shared blue grid background behind navbar + hero, so the navbar looks transparent */}
+      <div
+        className="relative bg-[#0b3cf5] text-white [&>*]:!bg-transparent [&>*]:![background-image:none]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px)",
+          backgroundSize: "72px 72px",
+        }}
+      >
         <Navbar />
         <CreatorHero
           creator={{
@@ -65,7 +72,7 @@ export default function CreatorProfilePage() {
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {courses.map((course) => (
               <li key={course.id}>
-                <CourseCard course={course}/>
+                <CourseCard course={course} />
               </li>
             ))}
           </ul>

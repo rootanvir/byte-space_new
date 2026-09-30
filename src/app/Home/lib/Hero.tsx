@@ -11,7 +11,7 @@ const shapes: Shape[] = [
     { src: "/shapes/limecylinder.png", className: "-right-25 top-30 w-60" },
     { src: "/shapes/cone3.png", className: "right-[15%] top-[45%] w-30" },
     { src: "/shapes/whitecircle.png", className: "left-[4%] bottom-0 w-70" },
-    { src: "/shapes/zigzag2.png", className: "right-60 bottom-0 w-60" },
+    { src: "/shapes/zigzag22.png", className: "right-60 bottom-0 w-60" },
 ];
 
 export default function Hero() {
@@ -29,7 +29,7 @@ export default function Hero() {
                 <Image
                     key={shape.src}
                     src={shape.src}
-                    alt=""
+                    alt={shape.src}
                     aria-hidden
                     width={300}
                     height={300}
