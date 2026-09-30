@@ -4,7 +4,7 @@ import Link from "next/link";
 type Shape = { src: string; className: string };
 
 const shapes: Shape[] = [
-  { src: "/shapes/zigzag1.png", className: "left-0 top-0 w-50" },
+  { src: "/shapes/zigzag.png", className: "-left-15 -top-17 w-50" },
   { src: "/shapes/zigzag2.png", className: "left-[10%] top-2 w-35" },
   { src: "/shapes/cone2.png", className: "right-[7%] top-0 w-40" },
   { src: "/shapes/cylinder.png", className: "-right-34 top-6 w-80" },
