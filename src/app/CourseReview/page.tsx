@@ -93,9 +93,9 @@ export default function CourseReview() {
           ].join(" ")}
         />
 
-        <div className="relative  col-span-full col-start-1 row-start-1 -mx-5 text-white mb-5">
-          <Navbar />
-        </div>
+<div className="relative left-1/2 col-span-full col-start-1 row-start-1 mb-5 w-screen -translate-x-1/2 text-white">
+  <Navbar />
+</div>
 
         <div className="relative z-10 col-start-1 row-start-2 pb-10 pt-4 text-white">
           <CourseRatingHero
